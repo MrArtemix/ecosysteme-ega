@@ -1,0 +1,463 @@
+{
+  "v": 3,
+  "attachments": {},
+  "boards": {
+    "Central-Ajustements.dc.html": {
+      "expand": "fill",
+      "h": 900,
+      "is_interactive": true,
+      "title": "Central · Ajustements",
+      "w": 1440,
+      "x": 6080,
+      "y": 1360
+    },
+    "Central-Audit.dc.html": {
+      "expand": "fill",
+      "h": 900,
+      "is_interactive": true,
+      "title": "Central · Journal d'audit",
+      "w": 1440,
+      "x": 4560,
+      "y": 2720
+    },
+    "Central-Bon.dc.html": {
+      "expand": "fill",
+      "h": 900,
+      "is_interactive": true,
+      "title": "Central · Aperçu du bon de sortie",
+      "w": 1440,
+      "x": 0,
+      "y": 1360
+    },
+    "Central-Catalogue.dc.html": {
+      "expand": "fill",
+      "h": 900,
+      "is_interactive": true,
+      "title": "Central · Catalogue",
+      "w": 1440,
+      "x": 7600,
+      "y": 1360
+    },
+    "Central-Connexion.dc.html": {
+      "expand": "fill",
+      "h": 900,
+      "is_interactive": true,
+      "title": "Central · Connexion",
+      "w": 1440,
+      "x": 0,
+      "y": 0
+    },
+    "Central-Entree.dc.html": {
+      "expand": "fill",
+      "h": 900,
+      "is_interactive": true,
+      "title": "Central · Nouvelle entrée",
+      "w": 1440,
+      "x": 6080,
+      "y": 0
+    },
+    "Central-Exports.dc.html": {
+      "expand": "fill",
+      "h": 900,
+      "is_interactive": true,
+      "title": "Central · Exports",
+      "w": 1440,
+      "x": 6080,
+      "y": 2720
+    },
+    "Central-Mouvement.dc.html": {
+      "expand": "fill",
+      "h": 900,
+      "is_interactive": true,
+      "title": "Central · Détail d'un mouvement",
+      "w": 1440,
+      "x": 1520,
+      "y": 1360
+    },
+    "Central-Mouvements.dc.html": {
+      "expand": "fill",
+      "h": 900,
+      "is_interactive": true,
+      "title": "Central · Liste des mouvements",
+      "w": 1440,
+      "x": 4560,
+      "y": 0
+    },
+    "Central-NouveauChantier.dc.html": {
+      "expand": "fill",
+      "h": 900,
+      "is_interactive": true,
+      "title": "Central · Nouveau chantier",
+      "w": 1440,
+      "x": 0,
+      "y": 2720
+    },
+    "Central-NouvelUtilisateur.dc.html": {
+      "expand": "fill",
+      "h": 900,
+      "is_interactive": true,
+      "title": "Central · Nouvel utilisateur",
+      "w": 1440,
+      "x": 3040,
+      "y": 2720
+    },
+    "Central-Preparation.dc.html": {
+      "expand": "fill",
+      "h": 900,
+      "is_interactive": true,
+      "title": "Central · Préparation d'une sortie",
+      "w": 1440,
+      "x": 9120,
+      "y": 0
+    },
+    "Central-Retours.dc.html": {
+      "expand": "fill",
+      "h": 900,
+      "is_interactive": true,
+      "title": "Central · Retours",
+      "w": 1440,
+      "x": 3040,
+      "y": 1360
+    },
+    "Central-Sites.dc.html": {
+      "expand": "fill",
+      "h": 900,
+      "is_interactive": true,
+      "title": "Central · Sites",
+      "w": 1440,
+      "x": 9120,
+      "y": 1360
+    },
+    "Central-Sortie.dc.html": {
+      "expand": "fill",
+      "h": 900,
+      "is_interactive": true,
+      "title": "Central · Nouvelle sortie",
+      "w": 1440,
+      "x": 7600,
+      "y": 0
+    },
+    "Central-TableauDeBord.dc.html": {
+      "expand": "fill",
+      "h": 957,
+      "is_interactive": true,
+      "title": "Central · Tableau de bord",
+      "w": 1440,
+      "x": 1520,
+      "y": 0
+    },
+    "Central-Transferts.dc.html": {
+      "expand": "fill",
+      "h": 900,
+      "is_interactive": true,
+      "title": "Central · Transferts",
+      "w": 1440,
+      "x": 4560,
+      "y": 1360
+    },
+    "Central-Utilisateurs.dc.html": {
+      "expand": "fill",
+      "h": 900,
+      "is_interactive": true,
+      "title": "Central · Utilisateurs",
+      "w": 1440,
+      "x": 1520,
+      "y": 2720
+    },
+    "Direction-Alertes.dc.html": {
+      "h": 844,
+      "is_interactive": true,
+      "title": "Direction · Alertes",
+      "w": 390,
+      "x": 940,
+      "y": 5304
+    },
+    "Direction-Connexion.dc.html": {
+      "h": 844,
+      "is_interactive": true,
+      "title": "Direction · Connexion",
+      "w": 390,
+      "x": 0,
+      "y": 5304
+    },
+    "Direction-Mouvement.dc.html": {
+      "h": 844,
+      "is_interactive": true,
+      "title": "Direction · Détail d'un mouvement",
+      "w": 390,
+      "x": 1410,
+      "y": 5304
+    },
+    "Direction-Parametres.dc.html": {
+      "h": 844,
+      "is_interactive": true,
+      "title": "Direction · Paramètres",
+      "w": 390,
+      "x": 2350,
+      "y": 5304
+    },
+    "Direction-Stock.dc.html": {
+      "h": 844,
+      "is_interactive": true,
+      "title": "Direction · Stock",
+      "w": 390,
+      "x": 1880,
+      "y": 5304
+    },
+    "Direction-Tour.dc.html": {
+      "h": 844,
+      "is_interactive": true,
+      "title": "Direction · Tour de contrôle",
+      "w": 390,
+      "x": 470,
+      "y": 5304
+    },
+    "Main.dc.html": {
+      "expand": "fill",
+      "h": 985,
+      "is_interactive": true,
+      "title": "Central · Stock",
+      "w": 1440,
+      "x": 3040,
+      "y": 0
+    },
+    "Terrain-Accueil.dc.html": {
+      "h": 844,
+      "is_interactive": true,
+      "title": "Terrain · Accueil",
+      "w": 390,
+      "x": 470,
+      "y": 4040
+    },
+    "Terrain-Bon.dc.html": {
+      "h": 844,
+      "is_interactive": true,
+      "title": "Terrain · Détail d'un bon",
+      "w": 390,
+      "x": 4700,
+      "y": 4040
+    },
+    "Terrain-Bons.dc.html": {
+      "h": 844,
+      "is_interactive": true,
+      "title": "Terrain · Liste des bons",
+      "w": 390,
+      "x": 4230,
+      "y": 4040
+    },
+    "Terrain-Connexion.dc.html": {
+      "h": 844,
+      "is_interactive": true,
+      "title": "Terrain · Connexion",
+      "w": 390,
+      "x": 0,
+      "y": 4040
+    },
+    "Terrain-Demande-Articles.dc.html": {
+      "h": 844,
+      "is_interactive": true,
+      "title": "Terrain · Demande, articles",
+      "w": 390,
+      "x": 1410,
+      "y": 4040
+    },
+    "Terrain-Demande-Chantier.dc.html": {
+      "h": 844,
+      "is_interactive": true,
+      "title": "Terrain · Demande, chantier",
+      "w": 390,
+      "x": 940,
+      "y": 4040
+    },
+    "Terrain-Demande-OK.dc.html": {
+      "h": 844,
+      "is_interactive": true,
+      "title": "Terrain · Demande enregistrée",
+      "w": 390,
+      "x": 3290,
+      "y": 4040
+    },
+    "Terrain-Demande-Recap.dc.html": {
+      "h": 844,
+      "is_interactive": true,
+      "title": "Terrain · Demande, récapitulatif",
+      "w": 390,
+      "x": 2820,
+      "y": 4040
+    },
+    "Terrain-Demande.dc.html": {
+      "h": 844,
+      "is_interactive": true,
+      "title": "Terrain · Nouvelle demande",
+      "w": 390,
+      "x": 2350,
+      "y": 4040
+    },
+    "Terrain-Demandes.dc.html": {
+      "h": 844,
+      "is_interactive": true,
+      "title": "Terrain · Demandes",
+      "w": 390,
+      "x": 3760,
+      "y": 4040
+    },
+    "Terrain-Entree.dc.html": {
+      "h": 844,
+      "is_interactive": true,
+      "title": "Terrain · Entrée à l'entrepôt",
+      "w": 390,
+      "x": 7520,
+      "y": 4040
+    },
+    "Terrain-File.dc.html": {
+      "h": 844,
+      "is_interactive": true,
+      "title": "Terrain · File d'envoi",
+      "w": 390,
+      "x": 7050,
+      "y": 4040
+    },
+    "Terrain-Plus.dc.html": {
+      "h": 844,
+      "is_interactive": true,
+      "title": "Terrain · Plus",
+      "w": 390,
+      "x": 7990,
+      "y": 4040
+    },
+    "Terrain-Reception-OK.dc.html": {
+      "h": 844,
+      "is_interactive": true,
+      "title": "Terrain · Réception enregistrée",
+      "w": 390,
+      "x": 6110,
+      "y": 4040
+    },
+    "Terrain-Reception.dc.html": {
+      "h": 844,
+      "is_interactive": true,
+      "title": "Terrain · Réception",
+      "w": 390,
+      "x": 5170,
+      "y": 4040
+    },
+    "Terrain-Retour.dc.html": {
+      "h": 844,
+      "is_interactive": true,
+      "title": "Terrain · Retour chantier",
+      "w": 390,
+      "x": 6580,
+      "y": 4040
+    },
+    "Terrain-Scan.dc.html": {
+      "h": 844,
+      "is_interactive": true,
+      "title": "Terrain · Scan",
+      "w": 390,
+      "x": 1880,
+      "y": 4040
+    },
+    "Terrain-Signature.dc.html": {
+      "h": 844,
+      "is_interactive": true,
+      "title": "Terrain · Signature",
+      "w": 390,
+      "x": 5640,
+      "y": 4040
+    }
+  },
+  "createdOnFiles": {
+    "at": "2026-11-15T03:58:00Z",
+    "v": 1
+  },
+  "designSystems": [
+    {
+      "artifact": "https://claude.ai/code/artifact/d39621b6-38fc-4e12-8853-c1e5524f7dac",
+      "copiedAt": "2026-11-15T03:58:00Z",
+      "namespace": "ega",
+      "title": "EGA",
+      "version": "1794714487-5805"
+    }
+  ],
+  "launch": {
+    "view": "canvas"
+  },
+  "noteOrder": [
+    "t-central",
+    "t-terrain",
+    "t-direction"
+  ],
+  "notes": {
+    "t-central": {
+      "kind": "title1",
+      "maxW": 8000,
+      "text": "EGA Central",
+      "w": 240,
+      "x": 0,
+      "y": -300
+    },
+    "t-direction": {
+      "kind": "title1",
+      "maxW": 2740,
+      "text": "EGA Direction",
+      "w": 240,
+      "x": 0,
+      "y": 5004
+    },
+    "t-terrain": {
+      "kind": "title1",
+      "maxW": 8000,
+      "text": "EGA Terrain",
+      "w": 240,
+      "x": 0,
+      "y": 3740
+    }
+  },
+  "order": [
+    "Main.dc.html",
+    "Central-Connexion.dc.html",
+    "Central-TableauDeBord.dc.html",
+    "Central-Mouvements.dc.html",
+    "Central-Entree.dc.html",
+    "Central-Sortie.dc.html",
+    "Central-Preparation.dc.html",
+    "Central-Bon.dc.html",
+    "Central-Mouvement.dc.html",
+    "Central-Retours.dc.html",
+    "Central-Transferts.dc.html",
+    "Central-Ajustements.dc.html",
+    "Central-Catalogue.dc.html",
+    "Central-Sites.dc.html",
+    "Central-NouveauChantier.dc.html",
+    "Central-Utilisateurs.dc.html",
+    "Central-NouvelUtilisateur.dc.html",
+    "Central-Audit.dc.html",
+    "Central-Exports.dc.html",
+    "Terrain-Connexion.dc.html",
+    "Terrain-Accueil.dc.html",
+    "Terrain-Demande-Chantier.dc.html",
+    "Terrain-Demande-Articles.dc.html",
+    "Terrain-Scan.dc.html",
+    "Terrain-Demande.dc.html",
+    "Terrain-Demande-Recap.dc.html",
+    "Terrain-Demande-OK.dc.html",
+    "Terrain-Demandes.dc.html",
+    "Terrain-Bons.dc.html",
+    "Terrain-Bon.dc.html",
+    "Terrain-Reception.dc.html",
+    "Terrain-Signature.dc.html",
+    "Terrain-Reception-OK.dc.html",
+    "Terrain-Retour.dc.html",
+    "Terrain-File.dc.html",
+    "Terrain-Entree.dc.html",
+    "Terrain-Plus.dc.html",
+    "Direction-Connexion.dc.html",
+    "Direction-Tour.dc.html",
+    "Direction-Alertes.dc.html",
+    "Direction-Mouvement.dc.html",
+    "Direction-Stock.dc.html",
+    "Direction-Parametres.dc.html"
+  ],
+  "pages": [],
+  "title": "Maquettes EGA"
+}

@@ -1,0 +1,58 @@
+@import './tokens.css';
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--color-accent-text);
+}
+
+a:hover {
+  color: var(--color-warning-text);
+}
+
+:focus-visible {
+  outline: var(--focus-width) solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+/* Écrans mobiles (EGA Terrain, EGA Direction) : plein écran sur téléphone,
+   cadre centré de 390 × 844 px sur grand écran. */
+.mobile-stage {
+  --mobile-frame-width: 100%;
+  --mobile-frame-height: 100dvh;
+  min-height: 100dvh;
+  background: var(--color-primary);
+}
+
+.mobile-stage > * {
+  box-shadow: var(--shadow-popover);
+}
+
+@media (min-width: 600px) {
+  .mobile-stage {
+    --mobile-frame-width: 390px;
+    --mobile-frame-height: min(844px, calc(100dvh - 48px));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    box-sizing: border-box;
+    background: var(--color-background);
+  }
+
+  .mobile-stage > * {
+    border-radius: 24px;
+  }
+}

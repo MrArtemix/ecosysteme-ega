@@ -1,0 +1,475 @@
+{
+  "version": 1,
+  "color": {
+    "themes": [
+      {
+        "id": "light",
+        "name": "Clair"
+      },
+      {
+        "id": "dark",
+        "name": "Sombre"
+      },
+      {
+        "id": "contrast",
+        "name": "Contraste élevé"
+      }
+    ],
+    "tokens": [
+      {
+        "name": "color-primary",
+        "value": {
+          "light": "#0f2942",
+          "dark": "#163a5c",
+          "contrast": "#0f2942"
+        },
+        "usage": "Bleu nuit industriel (jeton color.primary). Barre latérale, en-têtes, éléments de structure ; titres en thème clair. Type de mouvement Transfert et Retour. Porte du texte en color-on-primary. Valeur sombre : proposition."
+      },
+      {
+        "name": "color-on-primary",
+        "value": {
+          "light": "#ffffff",
+          "dark": "#ffffff",
+          "contrast": "#ffffff"
+        },
+        "usage": "Texte et icônes sur color-primary (jeton color.on-primary)."
+      },
+      {
+        "name": "color-accent",
+        "value": {
+          "light": "#f57c00",
+          "dark": "#f57c00",
+          "contrast": "#f57c00"
+        },
+        "usage": "Orange énergie (jeton color.accent). Fond de l'action principale de l'écran, scan, validation, élément actif. Jamais en texte courant sur fond clair : utiliser color-accent-text."
+      },
+      {
+        "name": "color-on-accent",
+        "value": {
+          "light": "#0f2942",
+          "dark": "#0f2942",
+          "contrast": "#000000"
+        },
+        "usage": "Libellé sur color-accent (5,5:1). Le blanc sur l'orange n'atteint que 2,7:1 : le cahier design le réserve aux libellés gras de grande taille."
+      },
+      {
+        "name": "color-accent-text",
+        "value": {
+          "light": "#b45309",
+          "dark": "#fb923c",
+          "contrast": "#7c2d12"
+        },
+        "usage": "Orange foncé pour le texte et les liens d'action sur color-surface et color-background (proposition du cahier design 2.3 en clair)."
+      },
+      {
+        "name": "color-success",
+        "value": {
+          "light": "#16a34a",
+          "dark": "#22c55e",
+          "contrast": "#166534"
+        },
+        "usage": "Vert (jeton color.success). Entrée, Terminé, Validé : icônes, pastilles et repères graphiques sur color-surface. Pour du texte, utiliser color-success-text."
+      },
+      {
+        "name": "color-warning",
+        "value": {
+          "light": "#d97706",
+          "dark": "#f59e0b",
+          "contrast": "#92400e"
+        },
+        "usage": "Ambre (jeton color.warning). En transit, En attente, type Sortie : icônes et repères graphiques sur color-surface. Pour du texte, utiliser color-warning-text."
+      },
+      {
+        "name": "color-danger",
+        "value": {
+          "light": "#dc2626",
+          "dark": "#f87171",
+          "contrast": "#991b1b"
+        },
+        "usage": "Rouge (jeton color.danger). Rejet, alerte, stock critique, erreur, bouton destructif. Porte du texte en color-on-danger."
+      },
+      {
+        "name": "color-on-danger",
+        "value": {
+          "light": "#ffffff",
+          "dark": "#111827",
+          "contrast": "#ffffff"
+        },
+        "usage": "Libellé sur color-danger (bouton destructif)."
+      },
+      {
+        "name": "color-success-text",
+        "value": {
+          "light": "#166534",
+          "dark": "#4ade80",
+          "contrast": "#14532d"
+        },
+        "usage": "Texte de statut vert, teinte pleine foncée, sur color-success-bg, color-surface et color-background."
+      },
+      {
+        "name": "color-success-bg",
+        "value": {
+          "light": "rgba(22, 163, 74, 0.12)",
+          "dark": "rgba(34, 197, 94, 0.18)",
+          "contrast": "rgba(22, 101, 52, 0.10)"
+        },
+        "usage": "Fond de badge vert : même teinte que color-success, opacité faible. Posé sur color-surface ou color-background."
+      },
+      {
+        "name": "color-warning-text",
+        "value": {
+          "light": "#92400e",
+          "dark": "#fbbf24",
+          "contrast": "#78350f"
+        },
+        "usage": "Texte de statut ambre, teinte pleine foncée, sur color-warning-bg, color-surface et color-background."
+      },
+      {
+        "name": "color-warning-bg",
+        "value": {
+          "light": "rgba(217, 119, 6, 0.12)",
+          "dark": "rgba(245, 158, 11, 0.18)",
+          "contrast": "rgba(146, 64, 14, 0.10)"
+        },
+        "usage": "Fond de badge ambre : même teinte que color-warning, opacité faible."
+      },
+      {
+        "name": "color-danger-text",
+        "value": {
+          "light": "#991b1b",
+          "dark": "#fca5a5",
+          "contrast": "#7f1d1d"
+        },
+        "usage": "Texte de statut et message d'erreur rouge, sur color-danger-bg, color-surface et color-background."
+      },
+      {
+        "name": "color-danger-bg",
+        "value": {
+          "light": "rgba(220, 38, 38, 0.12)",
+          "dark": "rgba(248, 113, 113, 0.18)",
+          "contrast": "rgba(153, 27, 27, 0.10)"
+        },
+        "usage": "Fond de badge rouge : même teinte que color-danger, opacité faible. Type Ajustement (rouge atténué)."
+      },
+      {
+        "name": "color-neutral-bg",
+        "value": {
+          "light": "rgba(75, 85, 99, 0.12)",
+          "dark": "rgba(156, 163, 175, 0.18)",
+          "contrast": "rgba(0, 0, 0, 0.08)"
+        },
+        "usage": "Fond gris neutre : badges Brouillon et Annulé (texte en color-text-muted), ligne sélectionnée d'un tableau, bandeau d'information."
+      },
+      {
+        "name": "color-surface",
+        "value": {
+          "light": "#ffffff",
+          "dark": "#13212f",
+          "contrast": "#ffffff"
+        },
+        "usage": "Fond des cartes, tableaux, champs et dialogues (jeton color.surface). Valeur sombre : proposition."
+      },
+      {
+        "name": "color-background",
+        "value": {
+          "light": "#f4f6f8",
+          "dark": "#0b1622",
+          "contrast": "#ffffff"
+        },
+        "usage": "Fond d'écran (jeton color.background ; en sombre, jeton color.surface-dark)."
+      },
+      {
+        "name": "color-border",
+        "value": {
+          "light": "#d5dbe1",
+          "dark": "#2b3b4d",
+          "contrast": "#000000"
+        },
+        "usage": "Filets et contours (jeton color.border). Valeur du cahier design conservée telle quelle : environ 1,4:1 sur color-surface en clair, sous le 3:1 demandé pour un contour de champ. À trancher ; le thème contrast passe en noir à 2 px."
+      },
+      {
+        "name": "color-text",
+        "value": {
+          "light": "#111827",
+          "dark": "#f3f4f6",
+          "contrast": "#000000"
+        },
+        "usage": "Texte principal sur color-surface et color-background (jeton color.text ; en sombre, color.text-dark). Noir pur en contraste élevé."
+      },
+      {
+        "name": "color-text-muted",
+        "value": {
+          "light": "#4b5563",
+          "dark": "#9ca3af",
+          "contrast": "#1f2937"
+        },
+        "usage": "Texte secondaire, étiquettes de champs, en-têtes de tableau, sur color-surface, color-background et color-neutral-bg (jeton color.text-muted)."
+      },
+      {
+        "name": "color-focus",
+        "value": {
+          "light": "#0f2942",
+          "dark": "#f3f4f6",
+          "contrast": "#000000"
+        },
+        "usage": "Anneau de focus clavier, plein, de focus-width (2 px), sur color-surface et color-background."
+      }
+    ]
+  },
+  "type": {
+    "fonts": [],
+    "families": {
+      "sans": "Inter, Roboto, system-ui, sans-serif",
+      "mono": "ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    },
+    "groups": [
+      {
+        "name": "Mobile",
+        "family": "sans",
+        "note": "",
+        "styles": [
+          {
+            "name": "title",
+            "fontSize": "22px",
+            "lineHeight": "1.4",
+            "fontWeight": "600",
+            "letterSpacing": "0",
+            "fontStyle": "normal",
+            "opticalSize": null,
+            "family": "",
+            "sample": "Réception",
+            "usage": "Titre d'écran sur mobile (font.title)."
+          },
+          {
+            "name": "section",
+            "fontSize": "17px",
+            "lineHeight": "1.4",
+            "fontWeight": "600",
+            "letterSpacing": "0",
+            "fontStyle": "normal",
+            "opticalSize": null,
+            "family": "",
+            "sample": "Articles reçus",
+            "usage": "Titre de section (font.section)."
+          },
+          {
+            "name": "body",
+            "fontSize": "16px",
+            "lineHeight": "1.4",
+            "fontWeight": "400",
+            "letterSpacing": "0",
+            "fontStyle": "normal",
+            "opticalSize": null,
+            "family": "",
+            "sample": "Câble R2V 3G2.5, 200 m",
+            "usage": "Texte courant sur mobile ; 16 pt minimum sur EGA Terrain (font.body)."
+          },
+          {
+            "name": "label",
+            "fontSize": "13px",
+            "lineHeight": "1.4",
+            "fontWeight": "500",
+            "letterSpacing": "0",
+            "fontStyle": "normal",
+            "opticalSize": null,
+            "family": "",
+            "sample": "Quantité reçue",
+            "usage": "Étiquettes de champs, en-têtes de tableau (font.label)."
+          },
+          {
+            "name": "number-large",
+            "fontSize": "28px",
+            "lineHeight": "1.4",
+            "fontWeight": "700",
+            "letterSpacing": "0",
+            "fontStyle": "normal",
+            "opticalSize": null,
+            "family": "",
+            "sample": "12 480 000 FCFA",
+            "usage": "Indicateurs de la Tour de contrôle, chiffres tabulaires (font.number-large)."
+          },
+          {
+            "name": "caption",
+            "fontSize": "12px",
+            "lineHeight": "1.4",
+            "fontWeight": "400",
+            "letterSpacing": "0",
+            "fontStyle": "normal",
+            "opticalSize": null,
+            "family": "",
+            "sample": "Mis à jour à 14:32",
+            "usage": "Aides, mentions (font.caption)."
+          }
+        ]
+      },
+      {
+        "name": "Desktop",
+        "family": "sans",
+        "note": "",
+        "styles": [
+          {
+            "name": "title-desktop",
+            "fontSize": "20px",
+            "lineHeight": "1.4",
+            "fontWeight": "600",
+            "letterSpacing": "0",
+            "fontStyle": "normal",
+            "opticalSize": null,
+            "family": "",
+            "sample": "Nouvelle sortie",
+            "usage": "Titre d'écran sur EGA Central (font.title, desktop)."
+          },
+          {
+            "name": "body-desktop",
+            "fontSize": "14px",
+            "lineHeight": "1.4",
+            "fontWeight": "400",
+            "letterSpacing": "0",
+            "fontStyle": "normal",
+            "opticalSize": null,
+            "family": "",
+            "sample": "Gaine ICTA Ø20, 400 pce",
+            "usage": "Texte courant et cellules de tableau sur EGA Central (font.body, desktop)."
+          }
+        ]
+      },
+      {
+        "name": "Références",
+        "family": "mono",
+        "note": "",
+        "styles": [
+          {
+            "name": "reference",
+            "fontSize": "14px",
+            "lineHeight": "1.4",
+            "fontWeight": "500",
+            "letterSpacing": "0",
+            "fontStyle": "normal",
+            "opticalSize": null,
+            "family": "",
+            "sample": "BS-2026-0042",
+            "usage": "Références de mouvement (BE-AAAA-NNNN, BS-AAAA-NNNN) : chasse fixe, copiables. Taille alignée sur body-desktop ; sur mobile, garder la chasse fixe à la taille de body."
+          }
+        ]
+      }
+    ]
+  },
+  "spacing": {
+    "note": "",
+    "tokens": [
+      {
+        "name": "space-4",
+        "value": "4px",
+        "usage": "Unité de base (space.unit). Écart icône et libellé dans un badge."
+      },
+      {
+        "name": "space-8",
+        "value": "8px",
+        "usage": "Écart entre éléments liés ; marge interne des badges."
+      },
+      {
+        "name": "space-12",
+        "value": "12px",
+        "usage": "Espacement minimal entre deux cibles tactiles sur EGA Terrain ; marge interne des champs."
+      },
+      {
+        "name": "space-16",
+        "value": "16px",
+        "usage": "Marge interne des cartes et marges d'écran sur mobile."
+      },
+      {
+        "name": "space-24",
+        "value": "24px",
+        "usage": "Séparation minimale entre Approuver et Rejeter ; marge interne des dialogues."
+      },
+      {
+        "name": "space-32",
+        "value": "32px",
+        "usage": "Séparation entre blocs d'un écran."
+      },
+      {
+        "name": "space-48",
+        "value": "48px",
+        "usage": "Grandes respirations, états vides."
+      }
+    ]
+  },
+  "radius": {
+    "note": "",
+    "tokens": [
+      {
+        "name": "radius-small",
+        "value": "3px",
+        "usage": "Champs, badges."
+      },
+      {
+        "name": "radius-medium",
+        "value": "6px",
+        "usage": "Cartes, boutons."
+      },
+      {
+        "name": "radius-large",
+        "value": "10px",
+        "usage": "Feuilles et dialogues mobiles ; pastille de connexion."
+      }
+    ]
+  },
+  "shadow": {
+    "note": "",
+    "tokens": [
+      {
+        "name": "shadow-sm",
+        "value": {
+          "light": "-2px 2px 0 rgba(0, 0, 0, 0.2)"
+        },
+        "usage": ""
+      }
+    ]
+  },
+  "size": {
+    "note": "Cotes fixes du cahier design : cibles tactiles, densité des tableaux, filets.",
+    "tokens": [
+      {
+        "name": "touch-target-mobile",
+        "value": "48px",
+        "usage": "Hauteur minimale d'une cible tactile sur mobile."
+      },
+      {
+        "name": "touch-target-terrain",
+        "value": "56px",
+        "usage": "Actions principales d'EGA Terrain : bouton pleine largeur en bas d'écran."
+      },
+      {
+        "name": "touch-target-desktop",
+        "value": "32px",
+        "usage": "Hauteur minimale d'une ligne cliquable sur EGA Central."
+      },
+      {
+        "name": "row-height",
+        "value": "36px",
+        "usage": "Hauteur de ligne de tableau par défaut sur EGA Central."
+      },
+      {
+        "name": "row-height-compact",
+        "value": "32px",
+        "usage": "Option de densité compacte des tableaux."
+      },
+      {
+        "name": "border-width",
+        "value": "1px",
+        "usage": "Filets standard."
+      },
+      {
+        "name": "border-width-contrast",
+        "value": "2px",
+        "usage": "Filets du mode contraste élevé."
+      },
+      {
+        "name": "focus-width",
+        "value": "2px",
+        "usage": "Épaisseur minimale de l'anneau de focus clavier."
+      }
+    ]
+  },
+  "name": "EGA"
+}
