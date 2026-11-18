@@ -1,0 +1,105 @@
+/* Généré depuis design/ega-tokens.json (système de design EGA). */
+:root {
+  --color-primary: #0f2942;
+  --color-on-primary: #ffffff;
+  --color-accent: #f57c00;
+  --color-on-accent: #0f2942;
+  --color-accent-text: #b45309;
+  --color-success: #16a34a;
+  --color-warning: #d97706;
+  --color-danger: #dc2626;
+  --color-on-danger: #ffffff;
+  --color-success-text: #166534;
+  --color-success-bg: rgba(22, 163, 74, 0.12);
+  --color-warning-text: #92400e;
+  --color-warning-bg: rgba(217, 119, 6, 0.12);
+  --color-danger-text: #991b1b;
+  --color-danger-bg: rgba(220, 38, 38, 0.12);
+  --color-neutral-bg: rgba(75, 85, 99, 0.12);
+  --color-surface: #ffffff;
+  --color-background: #f4f6f8;
+  --color-border: #d5dbe1;
+  --color-text: #111827;
+  --color-text-muted: #4b5563;
+  --color-focus: #0f2942;
+  --color-on-primary-muted: #c9d3de;
+  --color-divider: #e8ecf0;
+  --color-accent-soft: rgba(245, 124, 0, 0.16);
+  --shadow-card: 0 1px 2px rgba(15, 41, 66, 0.06), 0 6px 20px rgba(15, 41, 66, 0.07);
+  --shadow-accent: 0 6px 16px rgba(245, 124, 0, 0.28);
+  --shadow-popover: 0 16px 48px rgba(15, 41, 66, 0.28);
+  --font-sans: Inter, Roboto, system-ui, sans-serif;
+  --font-mono: JetBrains Mono, ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --font-display: Space Grotesk, Inter, system-ui, sans-serif;
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-48: 48px;
+  --radius-small: 3px;
+  --radius-medium: 6px;
+  --radius-large: 10px;
+  --touch-target-mobile: 48px;
+  --touch-target-terrain: 56px;
+  --touch-target-desktop: 32px;
+  --row-height: 36px;
+  --row-height-compact: 32px;
+  --border-width: 1px;
+  --border-width-contrast: 2px;
+  --focus-width: 2px;
+}
+
+:root[data-theme='dark'] {
+  --color-primary: #163a5c;
+  --color-on-primary: #ffffff;
+  --color-accent: #f57c00;
+  --color-on-accent: #0f2942;
+  --color-accent-text: #fb923c;
+  --color-success: #22c55e;
+  --color-warning: #f59e0b;
+  --color-danger: #f87171;
+  --color-on-danger: #111827;
+  --color-success-text: #4ade80;
+  --color-success-bg: rgba(34, 197, 94, 0.18);
+  --color-warning-text: #fbbf24;
+  --color-warning-bg: rgba(245, 158, 11, 0.18);
+  --color-danger-text: #fca5a5;
+  --color-danger-bg: rgba(248, 113, 113, 0.18);
+  --color-neutral-bg: rgba(156, 163, 175, 0.18);
+  --color-surface: #13212f;
+  --color-background: #0b1622;
+  --color-border: #2b3b4d;
+  --color-text: #f3f4f6;
+  --color-text-muted: #9ca3af;
+  --color-focus: #f3f4f6;
+  --color-divider: #22303f;
+  --color-on-primary-muted: #c9d3de;
+}
+
+:root[data-theme='contrast'] {
+  --color-primary: #0f2942;
+  --color-on-primary: #ffffff;
+  --color-accent: #f57c00;
+  --color-on-accent: #000000;
+  --color-accent-text: #7c2d12;
+  --color-success: #166534;
+  --color-warning: #92400e;
+  --color-danger: #991b1b;
+  --color-on-danger: #ffffff;
+  --color-success-text: #14532d;
+  --color-success-bg: rgba(22, 101, 52, 0.1);
+  --color-warning-text: #78350f;
+  --color-warning-bg: rgba(146, 64, 14, 0.1);
+  --color-danger-text: #7f1d1d;
+  --color-danger-bg: rgba(153, 27, 27, 0.1);
+  --color-neutral-bg: rgba(0, 0, 0, 0.08);
+  --color-surface: #ffffff;
+  --color-background: #ffffff;
+  --color-border: #000000;
+  --color-text: #000000;
+  --color-text-muted: #1f2937;
+  --color-focus: #000000;
+  --color-divider: #000000;
+}
